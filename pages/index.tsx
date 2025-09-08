@@ -7,10 +7,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Underdog Ventures LLC – Luxury Chauffeur & Airport Transfers</title>
+        <title>Underdog Ventures Luxury Chauffeur & Airport Transfers</title>
         <meta name="description" content="Door-to-door luxury transportation, executive chauffeur, and airport transfers serving Philadelphia, PA and surrounding areas." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/underdogventures.png" />
+        <link rel="shortcut icon" type="image/png" href="/underdogventures.png" />
+        <link rel="apple-touch-icon" href="/underdogventures.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
