@@ -84,6 +84,49 @@ export default function Home() {
             </div>
           </section>
 
+          {/* Our Vehicles Section */}
+          <section className="mb-12">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 text-center">
+              Our Vehicles
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+              <div className="bg-white rounded-lg shadow-sm overflow-hidden">
+                <img
+                  src="/escalade-IQ.jpg"
+                  alt="Cadillac Escalade IQ luxury vehicle"
+                  className="w-full h-48 object-cover"
+                  width={600}
+                  height={300}
+                />
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                    Cadillac Escalade IQ
+                  </h3>
+                  <p className="text-gray-600">
+                    Luxury and Comfort
+                  </p>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow-sm overflow-hidden">
+                <img
+                  src="/mercedes-benz.jpg"
+                  alt="Mercedes-Benz luxury vehicle"
+                  className="w-full h-48 object-cover"
+                  width={600}
+                  height={300}
+                />
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                    Mercedes-Benz
+                  </h3>
+                  <p className="text-gray-600">
+                    Elegance and Performance
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* Rates & Booking Section */}
           <section className="mb-12">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 text-center">
